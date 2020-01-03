@@ -3,3 +3,22 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.textBoxRemoveCaret {
+  color: transparent;
+  text-shadow: 0 0 0 white;
+}
+
+.changeTextDirection {
+  unicode-bidi: embed;
+  direction: rtl;
+  text-align: right;
+}
+
+.transformCenter {
+  transform: translate(-50%, -50%);
+}
+
+.setMaxWidth {
+  max-width: 950px;
+}
